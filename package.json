@@ -1,0 +1,29 @@
+{
+  "name": "storybook-preset-tailwindcss",
+  "version": "1.0.3",
+  "description": "Tailwind preset for Storybook",
+  "license": "MIT",
+  "main": "index.js",
+  "homepage": "https://github.com/kolengri/storybook-preset-tailwindcss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolengri/storybook-preset-tailwindcss.git"
+  },
+  "scripts": {
+    "build": "exit 0;",
+    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 8008"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "css-loader": "*",
+    "sass-loader": "*",
+    "postcss-loader": "*",
+    "autoprefixer": "*",
+    "postcss": "*",
+    "style-loader": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
